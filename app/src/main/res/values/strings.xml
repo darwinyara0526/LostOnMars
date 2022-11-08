@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LostOnMars</string>
+    <string name="registrar">Registrar</string>
+    <string name="nombre_de_usuario">NOMBRE DE USUARIO</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="listo_para_crear_la_cuenta">Listo para crear la cuenta</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="no_tienes_una_cuenta">No Tienes Una Cuenta?</string>
+    <string name="btningresar">Ingresar</string>
+    <string name="olvidate_tu_contraseña">Olvidate Tu Contraseña?</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="registrate">Registrate</string>
+    <string name="nombre_de_usuario_ingresar">Nombre de Usuario</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+</resources>
