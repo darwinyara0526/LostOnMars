@@ -13,6 +13,36 @@
         android:theme="@style/Theme.LostOnMars"
         tools:targetApi="31">
         <activity
+            android:name=".StartUp"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity android:name=".GameMap1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".GameOver"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".GameIntro"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:screenOrientation="landscape"
+                android:value=""
+                tools:ignore="LockedOrientationActivity" />
+        </activity>
+        <activity
             android:name=".ui.GameMainInterface"
             android:exported="true"
             android:screenOrientation="landscape"
@@ -22,6 +52,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -52,7 +83,6 @@
             android:exported="true"
             android:screenOrientation="landscape"
             tools:ignore="LockedOrientationActivity">
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
