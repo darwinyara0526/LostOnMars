@@ -1,4 +1,4 @@
-package com.example.lostonmars;
+package com.example.lostonmars.game;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,12 +10,11 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Point;
 import android.os.Handler;
-import android.util.AttributeSet;
 import android.view.Display;
 import android.view.MotionEvent;
 import android.view.View;
 
-import androidx.annotation.Nullable;
+import com.example.lostonmars.R;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -147,6 +146,9 @@ public class SpaceShooter extends View {
             }else if(enemyShots.get(i).shy >= screenHeight){
                 enemyShots.remove(i);
             }
+
+            //here fire!!
+
             if(enemyShots.size() < 1){
                 enemyShotAction = false;
             }
@@ -191,8 +193,11 @@ public class SpaceShooter extends View {
         // When event.getAction() is MotionEvent.ACTION_UP, if ourShots arraylist size < 1,
         // create a new Shot.
         // This way we restrict ourselves of making just one shot at a time, on the screen.
+
+        //aqui!!! fire < 1
+
         if(event.getAction() == MotionEvent.ACTION_UP){
-            if(ourShots.size() < 1){
+            if(ourShots.size() < 5){
                 Shot ourShot = new Shot(context, ourSpaceship.ox + ourSpaceship.getOurSpaceshipWidth() / 2, ourSpaceship.oy);
                 ourShots.add(ourShot);
             }

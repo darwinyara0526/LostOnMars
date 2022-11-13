@@ -1,4 +1,4 @@
-package com.example.lostonmars;
+package com.example.lostonmars.game;
 
 import androidx.appcompat.app.AppCompatActivity;
 

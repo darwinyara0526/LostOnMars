@@ -31,14 +31,14 @@ class LoginActivity : AppCompatActivity() {
             var args = listOf<String>(edUsernameRegistrar.text.toString(),edPasswordRegistrar.text.toString()).toTypedArray()
             var rs = db.rawQuery("SELECT * FROM player WHERE nombreJugador = ? AND contraseñaJugador = ?",args)
             if (rs.moveToNext()){
-                val lanzar = Intent(this, DeveloperView::class.java)
+                val lanzar = Intent(this, GameMainInterface::class.java)
                 startActivity(lanzar)
             }else{
                 Toast.makeText(applicationContext, "invalid credential", Toast.LENGTH_SHORT).show()
             }
         }
         btnRegistrateIngresar.setOnClickListener {
-            val lanzar = Intent(this, DeveloperView::class.java)
+            val lanzar = Intent(this, RegisterActivity::class.java)
             startActivity(lanzar)
         }
     }

@@ -4,8 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.lostonmars.GameIntro
 import com.example.lostonmars.R
+import com.example.lostonmars.game.GameIntro
+import com.example.lostonmars.game.GameMap1
+import java.util.*
 
 class GameMainInterface : AppCompatActivity() {
 
@@ -20,12 +22,5 @@ class GameMainInterface : AppCompatActivity() {
             startActivity(lanzar)
         }
 
-    }
-    fun esperar() {
-        try {
-            Thread.sleep((4 * 1000).toLong())
-        } catch (e: Exception) {
-            println(e)
-        }
     }
 }

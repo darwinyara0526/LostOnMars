@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameIntro">
+    tools:context=".game.GameIntro">
 
     <com.airbnb.lottie.LottieAnimationView
 
         android:id="@+id/ltAnimation"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/ColorRed"
+        android:background="@color/teal_200"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/animation">

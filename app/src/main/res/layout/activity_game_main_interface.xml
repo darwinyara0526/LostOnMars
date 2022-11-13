@@ -12,7 +12,13 @@
         android:layout_width="100dp"
         android:layout_height="80dp"
         android:layout_marginBottom="30dp"
+        android:background="@color/white"
         android:text="Jugar"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -23,7 +29,8 @@
         android:layout_height="60dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
-        android:text="Configuraciones"
+        android:background="@drawable/configuracion_icon"
+        app:backgroundTint="@color/white"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button7" />
@@ -34,10 +41,11 @@
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="30dp"
-        android:text="Tienda"
+        android:background="@drawable/shop_icon"
+        app:backgroundTint="@color/white"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button3" />
+        app:layout_constraintStart_toEndOf="@+id/button3"/>
 
     <Button
         android:id="@+id/button3"
@@ -45,8 +53,9 @@
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="30dp"
-        android:text="Mejoras"
+        android:background="@drawable/mejoras_icon"
         android:textSize="10sp"
+        app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -56,7 +65,8 @@
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="30dp"
-        android:text="Logros"
+        android:background="@drawable/logros_icon"
+        app:backgroundTint="@color/white"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button2" />
@@ -67,7 +77,8 @@
         android:layout_height="60dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
-        android:text="Narracción"
+        android:background="@drawable/book_icon"
+        app:backgroundTint="@color/white"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button6" />
@@ -78,9 +89,26 @@
         android:layout_height="60dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
-        android:text="Recompensa de Nivel"
+        android:background="@drawable/recompensas_icon"
+        app:backgroundTint="@color/white"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnPlaySonic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <Button
+        android:id="@+id/btnPauseSonic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="61dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

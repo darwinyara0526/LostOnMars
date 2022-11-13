@@ -1,4 +1,4 @@
-package com.example.lostonmars;
+package com.example.lostonmars.game;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,9 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.lostonmars.R;
+import com.example.lostonmars.game.GameMap1;
 
 public class StartUp extends AppCompatActivity {
     @Override

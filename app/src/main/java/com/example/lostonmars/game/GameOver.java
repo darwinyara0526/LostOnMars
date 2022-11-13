@@ -1,4 +1,4 @@
-package com.example.lostonmars;
+package com.example.lostonmars.game;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.lostonmars.R;
 
 public class GameOver extends AppCompatActivity {
 

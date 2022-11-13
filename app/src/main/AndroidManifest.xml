@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,7 +16,7 @@
         android:theme="@style/Theme.LostOnMars"
         tools:targetApi="31">
         <activity
-            android:name=".StartUp"
+            android:name=".game.StartUp"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
             android:screenOrientation="landscape">
@@ -22,17 +25,17 @@
                 android:value="" />
         </activity>
 
-        <activity android:name=".GameMap1"
+        <activity android:name=".game.GameMap1"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
             android:screenOrientation="landscape">
         </activity>
-        <activity android:name=".GameOver"
+        <activity android:name=".game.GameOver"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
             android:screenOrientation="landscape">
         </activity>
 
         <activity
-            android:name=".GameIntro"
+            android:name=".game.GameIntro"
             android:exported="false"
             android:screenOrientation="landscape"
             tools:ignore="LockedOrientationActivity">
@@ -47,6 +50,8 @@
             android:exported="true"
             android:screenOrientation="landscape"
             tools:ignore="LockedOrientationActivity">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -83,6 +88,7 @@
             android:exported="true"
             android:screenOrientation="landscape"
             tools:ignore="LockedOrientationActivity">
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
