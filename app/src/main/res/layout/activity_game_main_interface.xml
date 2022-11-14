@@ -96,19 +96,42 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btnPlaySonic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="13dp" />
+        android:id="@+id/buttonPlay"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/ic_play"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnPauseSonic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="61dp" />
+        android:id="@+id/buttonPause"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/ic_pause"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toEndOf="@+id/buttonPlay"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/ic_stop"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toEndOf="@+id/buttonPause"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
