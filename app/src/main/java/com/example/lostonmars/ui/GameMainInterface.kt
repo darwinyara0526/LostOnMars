@@ -5,14 +5,13 @@ import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.lostonmars.R
 import com.example.lostonmars.game.GameIntro
-import com.example.lostonmars.game.GameMap1
 import java.util.*
 
 class GameMainInterface : AppCompatActivity() {
+
 
     var timer: Timer? = null
 
@@ -21,6 +20,7 @@ class GameMainInterface : AppCompatActivity() {
     private lateinit var buttonPlay: Button
     private lateinit var buttonPause: Button
     private lateinit var buttonStop: Button
+
 
     private lateinit var mediaPlayer: MediaPlayer
 
