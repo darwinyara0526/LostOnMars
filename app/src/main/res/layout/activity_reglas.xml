@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ReglasActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/Article_hading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5400A4"
+        android:padding="@dimen/pading"
+        android:text="@string/article_string"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@color/ColorBlack"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Article_subheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Article_hading"
+        android:background="#7E2EC9 "
+        android:padding="@dimen/pading"
+        android:text="@string/Reglas"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Article_subheading">
+
+
+        <TextView
+            android:id="@+id/Article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Article_subheading"
+            android:lineSpacingExtra="5sp"
+            android:padding="@dimen/pading"
+            android:text="@string/Contenido"></TextView>
+    </ScrollView>
+</RelativeLayout>

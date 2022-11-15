@@ -13,4 +13,74 @@
     <string name="nombre_de_usuario_ingresar">Nombre de Usuario</string>
     <string name="google">Google</string>
     <string name="facebook">Facebook</string>
+
+    <string name="article_string">Informacion del juego</string>
+    <string name="Reglas">Reglas</string>
+    <string name="Contenido"><b>Reglas del juego</b>
+        \n
+<b><i>◉ El personaje solo contará con tres vidas.</i></b>
+        \n
+<b><i>◉ Entre mayor sea la puntuación conseguida en el nivel, las recompensas dadas al final serán mayores.</i></b>
+        \n
+<b><i>◉ La recolección de objetos y piezas es indispensable en cada nivel.</i></b>
+        \n
+<b><i>◉ En el momento que el personaje se le terminen la salud pasará a gastar la siguiente vida. En caso de que las tres vidas con las que cuenta se le acaben, se finaliza la partida.</i></b>
+        \n
+<b><i>◉ Los enemigos se generan de forma aleatoria y en mayor cantidad dificultando en progreso en el nivel.</i></b>
+        \n
+<b><i>◉ Las piezas que se consigan en las partidas servirán para realizar mejoras en el armamento, equipo táctico y la mochila del jugador. </i></b>
+        \n
+<b><i>◉ Si el jugador es detectado haciendo trampa será expulsado del mismo y perderá todo su progreso.</i></b>
+        \n
+<b><i>◉ Las mejoras en las armas y equipos del jugador serán indispensables para el progreso en los niveles superiores.</i></b>
+        \n
+<b><i>◉ Todos los enemigos del nivel tendrán que ser eliminados. </i></b>
+        \n
+<b><i>◉ El uso de armas de alto nivel no será permitido en niveles inferiores. En la medida en que el jugador va pasando niveles se irán desbloqueando armas con mejores características. </i></b>
+        \n
+<b><i>◉ Los objetivos dados en cada nivel tendrán que ser completados. En caso de no ser completada satisfactoriamente, el nivel se dará por perdido y se tendrá que volver a iniciar desde cero.</i></b>
+        \n
+<b><i>◉ El jugador tendrá que transitar por los lugares indicados por el mapa. </i></b>
+        \n
+<b><i>◉ El laberinto tendrá que ser completado antes de que el tiempo se agote.</i></b>
+        \n
+<b><i>◉ El jugador debe tener un mínimo de edad para jugar este juego 7+.</i></b>
+        \n
+<b><i>◉ El jugador tendrá que hacer uso de la mochila para recolectar las piezas y objetos recolectados en el transcurso de los niveles. </i></b>
+        \n
+<b><i>◉ No se podrá hacer uso de programas que interfieran negativamente con la jugabilidad del juego. </i></b>
+        \n
+<b><i>◉ El uso de programas que faciliten el juego no serán permitidos. </i></b>
+        \n
+<b><i>◉ Los jefes en los niveles superiores tendrán que ser eliminados para continuar con la siguiente etapa.</i></b>
+        \n
+<b><i>◉ Solo se puede hacer uso de un arma.</i></b>
+    </string>
+    <string name="Narrativa">Narrativa interactiva</string>
+    <string name="Historia">Historiade nuestro personaje</string>
+    <string name="Texto">
+<b><i>Un día, como cualquier otro, me encontraba viajando por una galaxia conocida como la vida láctea. Era un lugar fascinante por la diversidad y las características que poseía cada uno de ellos, sin embargo, uno de ellos me llamó especialmente la atención por el color rojizo que al parecer se da por los procesos químicos de oxidación y se logra percibir desde el especial exterior, dicho planeta se conoce como Marte. Debido a la curiosidad que causó en mí, opte por ir a explorar con ayuda de mi nave espacial, sin embargo, este viaje fue diferente a los anteriores que había hecho. Mi nave sufrió un fuerte daño en el motor, lo que me llevó a hacer un aterrizaje de emergencia. Los problemas empezaron cuando la parte exterior de mi nave empezó a sufrir fuertes daños al entrar a la atmósfera marciana, esto llevó a la fragmentación de piezas cuya importancia era exorbitante para poder salir del planeta y regresar a mi hogar, pero en ese momento tenía cosas más importantes en que pensar, como mi vida.</i></b>
+
+\n\n
+<b><i>Mientras mi nave caída, las fuerza G tuvieron tal efecto sobre mi cuerpo que llegué al punto en el que perdí el conocimiento, cuando me desperté ya estaba en suelo marciano, confundido, con una nave hecha añicos y en un lugar totalmente nuevo para mí. Lo primero que pensé era cómo iba a salir de ese lugar con una nave inutilizable por el impacto y entrada a la atmósfera. Entre en pánico y sufrí un ataque de ansiedad; cuando por fin logré calmarme, trate de utilizar los instrumentos que no habían sido afectados en gran medida por el impacto, pero mi esfuerzo fue inútil, el daño provocado llevó a que ningún instrumento funcionará adecuadamente, es decir, que estaba en un lugar totalmente desconocido y sin forma de poder comunicarme con alguna persona capaz de auxiliar.</i></b>
+
+\n\n
+<b><i>La parte más fácil fue aceptar que salir de allí no sería un trabajo fácil, así que decidí agarrar el armamento que había sobrevivido de la caída y salir a explorar este nuevo mundo. Lo primero que se me ocurrió fue buscar en lugar en donde poderme resguardar y buscar suministros que me sirvieran para conservar mi vida mientras encontraba una forma de salir, así fue como localice una cueva en la que monte un fuerte y encontré diferentes alimentos comestibles. Para mi mala suerte en una de mis exploraciones encontré a ciertos seres, tenían una apariencia extraña e incluso parecía contra con tecnología armamentista. Pensé en acercarme para tratar de entrañar una amistad con ellos o al menos buscar ayuda que me permitirá reconstruir mi nave, el problema es que no fue así; una vez se percataron de mi presencia empezaron con el ataque. En ese momento supe que dicha raza no es para nada pacífica y que el armamento con el que cuenta tiene un poder increíble.</i></b>
+
+\n\n
+<b><i>Trate de investigar sobre la raza que había encontrado ese día y como había llegado a Marte, por otro lado, quería conocer más sobre el planeta en el que me encontraba, sus características y qué recursos me podría proveer para mi supervivencia, así fue como empezó mi aventura en buscas de las partes necesarias para reconstrucción de mi nave espacial.</i></b>
+
+\n
+<b><i>Cuando inicie la informe sobre esta raza encontré que tenía controlados muchos del planeta, puntos donde se puede encontrar suministros valiosos, al igual, que minerales con lo que se pueden fabricar, mejorar para mis armas y mi equipamiento, como también se puede utilizar para la construcción de algunas de las partes que necesitaba mi nave. Por otro lado, creo que esta especie llegó al planeta Marte de la misma forma que yo, llegué a esta hipótesis un día que pude adentrarme a uno de campamentos, donde encontré muchos fragmentos de lo que parecía ser naves espaciales. También encontré diferente equipamiento táctico como granadas de fragmentación, granadas molotov, munición, chalecos antibalas, armas, etc. Ver equipos e instrumentos de guerra me causó miedo, porque eso significaba que no eran una raza pacífica o dispuestos a diálogos.</i></b>
+
+\n\n
+<b><i>Por otro lado,  tenía que saber cómo era el planeta en el que me encontraba, qué suministros me podría brindar, hasta qué punto podía hacer usos de ellos. Mi investigación concluyó que Marte es un planeta desértico y frío. Es la mitad del tamaño del planeta Tierra, y también recibe el nombre de "planeta rojo". Es rojo por el hierro oxidado que tiene en el suelo como la Tierra, Marte tiene estaciones, casquetes polares, volcanes, cañones y clima. Tiene una atmósfera poco densa hecha de dióxido de carbono, nitrógeno y argón, lo que me ha impedido respirar con facilidad. También hay signos de antiguas inundaciones en Marte, pero ahora el agua existe principalmente en su polvo helado y sus nubes delgadas. Es un planeta muy interesante y las características que posee me impiden quedarme mucho tiempo a menos de que logre adaptar mis instrumentos para vivir adecuadamente.</i></b>
+
+\n\n
+<b><i>Un día, en una expedición que realice para encontrar materiales y suministro, por casualidad me encontré con esta especie. Trate de ocultarme sin tener éxito, ellos arremetiendo contra mí utilizando el arsenal que poseían, a lo cual yo hice lo mismo, no dejaría que ellos acabarán conmigo tan fácilmente. El combate fue extenso y agotador, pero al final fui yo quien logró triunfar, en ese me percate que una vez que muere los objetos que llevan consigo puede resultaban útiles para hacer mejores en mi equipamiento, ya sea en el chaleco antibalas, en la configuración de mi arma o ampliar el espacio de mi mochila. </i></b>
+
+\n\n
+<b><i>En el momento en que decidieron atacarme firmaron su condena. Desde ese momento me he envuelto en una guerra constante donde únicamente sobrevive el más fuerte, no hay día en el que no nos ataquemos, aunque mi finalidad sigue siendo la misma, conseguir las piezas necesarias para reconstruir mi nave y finalmente salir de este planeta…</i></b>
+
+    </string>
 </resources>
