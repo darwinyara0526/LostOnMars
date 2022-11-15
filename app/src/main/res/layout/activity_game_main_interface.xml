@@ -60,14 +60,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnNarracion"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="30dp"
-        android:background="@drawable/logros_icon"
-        app:backgroundTint="@color/white"
+        android:background="@drawable/narrativa"
         android:textSize="10sp"
+        app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button2" />
 
@@ -81,10 +81,10 @@
         app:backgroundTint="@color/white"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button6" />
+        app:layout_constraintEnd_toStartOf="@+id/btnLogros1" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnLogros1"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginEnd="30dp"
