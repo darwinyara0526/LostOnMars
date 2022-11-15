@@ -16,7 +16,7 @@
         android:theme="@style/Theme.LostOnMars"
         tools:targetApi="31" >
         <activity
-            android:name=".Settings"
+            android:name=".SettingActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
@@ -55,7 +55,6 @@
             android:exported="true"
             android:screenOrientation="landscape"
             tools:ignore="LockedOrientationActivity" >
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

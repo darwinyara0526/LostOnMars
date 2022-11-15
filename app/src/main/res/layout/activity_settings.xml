@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="0.3"
+        android:drawableLeft="@drawable/ic_play"
+        android:text="Reproducir"
+        app:backgroundTint="@color/ColorRed"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPause"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPause"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="0.3"
+        android:drawableLeft="@drawable/ic_pause"
+        android:text="Pausar"
+        app:backgroundTint="@color/ColorRed"
+        app:layout_constraintEnd_toStartOf="@+id/buttonStop"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="0.3"
+        android:drawableLeft="@drawable/ic_stop"
+        android:text="Detener"
+        app:backgroundTint="@color/ColorRed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="CONFIGURACIONES"
+        android:textColor="@color/ColorRed"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:text="Musica"
+        android:textColor="@color/ColorRed"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="180dp"
+        android:text="Escribir Mensaje"
+        android:textColor="@color/ColorRed"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mensajeEscrito"
+        android:layout_width="348dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Escribir Mensaje"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/enviarMensaje"
+        android:layout_width="298dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="0.3"
+        android:drawableLeft="@drawable/ic_email"
+        android:text="Enviar Mensaje"
+        app:backgroundTint="@color/ColorRed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
