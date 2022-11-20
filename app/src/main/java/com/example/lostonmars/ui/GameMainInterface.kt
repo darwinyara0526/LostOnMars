@@ -15,6 +15,7 @@ class GameMainInterface : AppCompatActivity() {
     private lateinit var btnLogros1:Button
     private lateinit var btnNarracion:Button
     private lateinit var btnReglas:Button
+    private lateinit var btnTienda:Button
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +27,7 @@ class GameMainInterface : AppCompatActivity() {
         btnLogros1 = findViewById(R.id.btnLogros1)
         btnNarracion = findViewById(R.id.btnNarracion)
         btnReglas = findViewById(R.id.btnReglas)
+        btnTienda = findViewById(R.id.btnTienda)
 
         btnJugar.setOnClickListener {
             val lanzar = Intent(this, GameIntro::class.java)
@@ -45,6 +47,10 @@ class GameMainInterface : AppCompatActivity() {
         }
         btnReglas.setOnClickListener {
             val lanzar = Intent(this, ReglasActivity::class.java)
+            startActivity(lanzar)
+        }
+        btnTienda.setOnClickListener {
+            val lanzar = Intent(this, TiendaIntroActivity::class.java)
             startActivity(lanzar)
         }
     }

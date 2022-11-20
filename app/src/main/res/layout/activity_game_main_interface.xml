@@ -36,7 +36,7 @@
         app:layout_constraintEnd_toStartOf="@+id/btnReglas" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnTienda"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
@@ -69,7 +69,7 @@
         android:textSize="10sp"
         app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2" />
+        app:layout_constraintStart_toEndOf="@+id/btnTienda" />
 
     <Button
         android:id="@+id/btnReglas"
